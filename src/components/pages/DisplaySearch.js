@@ -9,7 +9,7 @@ function DisplaySearch() {
 
     async function search(key){
 
-        let result= await fetch("http://localhost:8000/api/search/"+key);
+        let result= await fetch("http://178.128.137.135/api/search/"+key);
         result = await result.json();
         console.log(result);
         setData(result);

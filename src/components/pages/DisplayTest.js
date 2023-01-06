@@ -14,7 +14,7 @@ function DisplayTest(){
     }, []);
 
     const fetchData = async () => {
-        const {data} = await axios.get(`http://localhost:8000/api/displayTest/${checkValue}`);
+        const {data} = await axios.get(`http://178.128.137.135/api/displayTest/${checkValue}`);
         setTest(data);
     }
 

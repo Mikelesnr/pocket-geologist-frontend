@@ -18,7 +18,7 @@ function Login() {
         let item = {email,password};
 
         //Fetching user registration api
-        let result = await fetch("http://localhost:8000/api/login",{
+        let result = await fetch("http://178.128.137.135/api/login",{
             method:"POST",
             body:JSON.stringify(item),
             headers:{

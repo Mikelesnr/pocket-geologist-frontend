@@ -13,7 +13,7 @@ function Display() {
 
 
     const fetchData = async ()=>{
-        const {data} = await axios.get("http://localhost:8000/api/displayAll");
+        const {data} = await axios.get("http://178.128.137.135/api/displayAll");
         setMinerals(data);
         
     }

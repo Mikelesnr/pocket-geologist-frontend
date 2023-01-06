@@ -16,7 +16,7 @@ function PropertySearch() {
     const [sg,setSg] = useState("");
     const [streak,setStreak] = useState("");
     const [transparency,setTransparency] = useState("");
-    const query = `http://localhost:8000/api/propertySearch?
+    const query = `http://178.128.137.135/api/propertySearch?
     color=${color}&streak=${streak}&
     luster=${luster}&hardness=${hardness}&
     transparency=${transparency}&

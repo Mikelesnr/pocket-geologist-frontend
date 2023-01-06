@@ -17,7 +17,7 @@ function DisplayGroup() {
 
 
     const fetchData = async () => {
-        const { data } = await axios.get("http://localhost:8000/api/displayGroup/"+checkValue);
+        const { data } = await axios.get("http://178.128.137.135/api/displayGroup/"+checkValue);
         setMinerals(data);
     }
 

@@ -30,7 +30,7 @@ function UpdateMineral() {
 
 
     const fetchData = async () => {
-        const { data } = await axios.get("http://localhost:8000/api/displayOne/"+checkValue);
+        const { data } = await axios.get("http://178.128.137.135/api/displayOne/"+checkValue);
         setId(data.id);
         setMineral(data);
         setName(data.mineral);
@@ -67,7 +67,7 @@ function UpdateMineral() {
         formData.append("description",description)
         formData.append("file",file)
         // eslint-disable-next-line no-unused-vars
-        let result = await fetch("http://localhost:8000/api/updateMineral",{
+        let result = await fetch("http://178.128.137.135/api/updateMineral",{
             method:'POST',
             body:formData,
         });
