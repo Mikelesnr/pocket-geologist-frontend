@@ -93,7 +93,7 @@ function UpdateMineral() {
             <textarea type="text" className="form-control" onChange={(e)=>setDescription(e.target.value)} defaultValue={mineral.description}></textarea><br/>
             <h3>Select Image</h3><br/>
             <input type="file" className="form-control" onChange={(e)=>setFile(e.target.files[0])} defaultValue={mineral.image_path}></input><br/>
-            <img src={"hhttp://178.128.137.135/"+mineral.image_path} className="imgSize" alt="pic"></img><br/>
+            <img src={"http://178.128.137.135/"+mineral.image_path} className="imgSize" alt="pic"></img><br/>
             <><button className="btn btn-secondary" onClick={addUpdate}>Update Mineral</button><br/></>
         </div>
     </>
