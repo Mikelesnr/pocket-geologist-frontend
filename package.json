@@ -1,5 +1,6 @@
 {
   "name": "pocket-geologist",
+  "homepage": "http://188.166.81.83/react-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
