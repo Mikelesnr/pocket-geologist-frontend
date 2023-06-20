@@ -19,7 +19,7 @@ function Register() {
         let item = {name,email,password};
 
         //Fetching user registration api
-        let result = await fetch("http://178.128.137.135/api/register",{
+        let result = await fetch("http://139.84.230.196/api/register",{
             method:"POST",
             body:JSON.stringify(item),
             headers:{
